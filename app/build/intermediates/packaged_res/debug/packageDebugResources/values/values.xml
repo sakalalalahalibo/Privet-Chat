@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Privet Chat</string>
+    <string name="gcm_defaultSenderId" translatable="false">348428941710</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDvcGeFenyFYco9DIBDdM2heWwDbzYd10</string>
+    <string name="google_app_id" translatable="false">1:348428941710:android:890e2aba206e2ca3c38cdf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDvcGeFenyFYco9DIBDdM2heWwDbzYd10</string>
+    <string name="google_storage_bucket" translatable="false">friendschat-8c649.firebasestorage.app</string>
+    <string name="project_id" translatable="false">friendschat-8c649</string>
+</resources>

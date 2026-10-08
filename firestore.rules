@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /chat/{doc} {
+      // فقط المسجلون وبإيميلات أصدقائك. عدّل القائمة بإيميلاتهم الحقيقية.
+      function allowed() {
+        return request.auth != null &&
+          request.auth.token.email in [
+            "me@example.com",
+            "friend1@example.com",
+            "friend2@example.com"
+          ];
+      }
+      allow read: if allowed();
+      allow create: if allowed()
+        && request.resource.data.senderUid == request.auth.uid
+        && request.resource.data.text is string
+        && request.resource.data.text.size() <= 2000;
+      allow update, delete: if false;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/data/data/com.qamar.ide.java/files/home/.gradle/daemon/9.6.1/com.friends.chat.app-debug-50:/mipmap_ic_luncher.jpg.flat",
+        "source": "/data/data/com.qamar.ide.java/files/home/.gradle/daemon/9.6.1/com.friends.chat.app-main-52:/mipmap/ic_luncher.jpg"
+    },
+    {
+        "merged": "com.friends.chat.app-debug-50:/mipmap_ic_luncher.jpg.flat",
+        "source": "com.friends.chat.app-main-52:/mipmap/ic_luncher.jpg"
+    },
+    {
+        "merged": "com.friends.chat.app-debug-50:/mipmap_edit.jpg.flat",
+        "source": "com.friends.chat.app-main-52:/mipmap/edit.jpg"
+    }
+]
